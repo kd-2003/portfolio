@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    height: 70px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+}
+.name{
+    color: #f59458;
+    margin-left: 30px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.navClick{
+    color: #fff;
+    margin-left: 50%;
+}
+.navClick a{
+    margin-right: 30px;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border-bottom: 1.5px solid rgb(197, 108, 39);
+    height: 10px;
+    width: 10px;
+}
+.main{
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p1{
+    margin-left: 70px;
+    font-size: 0.90rem;
+}
+.home h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 10px;
+}
+#p2{
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+.icon{
+    margin-left: 30px;
+}
+.icon i{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.imgMe{
+    background-image: url("photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35%;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+#mainSkill{
+    height: 100vh;
+    background-color: rgb(204, 173, 96);
+}
+.head{
+    height: 40px;
+    background-color: #0f1111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.skill{
+    margin: 100px 0 0 300px;
+}
+.first{
+    margin: 15px 0 15px 0;
+    height: 15px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.firstStyle{
+    background-color: green;
+    height: 15px;
+    width: 290px;
+    text-align: center;
+    border-radius: 7px;
+}
+.second{
+    margin: 15px 0 15px 0;
+    height: 15px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.secondStyle{
+    background-color: rgb(128, 0, 0);
+    height: 15px;
+    width: 270px;
+    text-align: center;
+    border-radius: 7px;
+}
+.third{
+    margin: 15px 0 15px 0;
+    height: 15px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.thirdStyle{
+    background-color: rgb(212, 119, 19);
+    height: 15px;
+    width: 180px;
+    text-align: center;
+    border-radius: 7px;
+}
+.fourth{
+    margin: 15px 0 15px 0;
+    height: 15px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.fourthStyle{
+    background-color: rgb(8, 59, 93);
+    height: 15px;
+    width: 230px;
+    text-align: center;
+    border-radius: 7px;
+}
+#certificate{
+    height: 100vh;
+    background-color: rgb(203, 210, 61);
+}
+.headSecond{
+    height: 40px;
+    background-color: #0f1111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.access{
+    display: flex;
+}
+.firstCerti{
+    height: 90vh;
+    width: 70vw;
+    background-image: url("imgF.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 70px 0 0 100px;
+}
+.secondCerti{
+    height: 75vh;
+    width: 70vw;
+    background-image: url("imgS.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 60px 0 0 90px;
+}
+#project{
+    height: 100vh;
+    background-color: rgb(50, 122, 68);
+}
+.headThird{
+    height: 40px;
+    background-color: #0f1111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.firstProject h2{
+    margin: 25px 0 0 100px;
+    font-family: 'Lucida Sans';
+    color: #000000;
+}
+.firstProject p{
+    margin: 20px 0 0 200px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.photoF{
+    height: 170px;
+    width: 400px;
+    background-image: url("amazone.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10px 0 0 200px;
+}
+.secondProject h2{
+    margin: 25px 0 0 100px;
+    font-family: 'Lucida Sans';
+    color: #000000;
+}
+.secondProject p{
+    margin: 10px 0 0 200px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.photoS{
+    height: 190px;
+    width: 400px;
+    background-image: url("tic.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10px 0 0 200px;
+}
+#contact{
+    height: 100vh;
+    background-color: rgb(84, 116, 132);
+}
+.headFourth{
+    height: 40px;
+    background-color: #0f1111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.form{
+    height: 300px;
+    width: 500px;
+    background-color: #fff;
+    border: 2px solid black;
+    margin: 130px 0 0 400px;
+    border-radius: 15px;
+}
+.contactFormF{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+.address p{
+    margin-top: 10px;
+}
+.phone p{
+    margin-top: 10px;
+}
+.contactFormS{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+.email p{
+    margin-top: 10px;
+}
+footer{
+    height: 40vh;
+    background-color: #0f1111;
+}
+.btn{
+    background-color: #191b1f;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.founder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.founder p{
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 800;
+    margin-top: 30px;
+}
